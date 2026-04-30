@@ -1,15 +1,15 @@
 import { useRouter } from "expo-router";
 import { useState } from "react";
 import {
-    KeyboardAvoidingView,
-    Text,
-    TouchableOpacity,
-    View,
+  KeyboardAvoidingView,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
-import Button from "../../components/Button";
-import Input from "../../components/Input";
-import { theme } from "../../constants/theme";
+import Button from "../../src/components/Button";
+import Input from "../../src/components/Input";
+import { theme } from "../../src/constants/theme";
 
 export default function Login() {
   const router = useRouter();
